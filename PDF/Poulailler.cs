@@ -64,6 +64,9 @@ namespace PDF
             listePoules.RemoveAt(nb - 1);
         }
 
+        /// <summary>
+        /// Vide le poulailler
+        /// </summary>
         public void Vider()
         {
             listePoules.Clear();
